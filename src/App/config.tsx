@@ -1,13 +1,13 @@
 import { Config } from 'types';
-import { Email, GitHub, LinkedIn, Resume } from 'icons';
+import { Email, GitHub, LinkedIn } from 'icons';
 
 export const config: Config = {
   name: {
-    display: 'Adam Alston',
-    aria: 'My name is Adam Alston',
+    display: 'Angelica Erazo',
+    aria: 'My name is Angelica Erazo',
   },
   title: {
-    display: 'Software Engineer',
+    display: 'Full Stack Developer | Cyber Security',
     aria: 'I am a software engineer',
   },
   buttons: [
@@ -16,28 +16,21 @@ export const config: Config = {
       display: 'GitHub',
       aria: 'Visit my GitHub profile',
       icon: <GitHub />,
-      href: 'https://github.com/adamalston/',
+      href: 'https://github.com/amerazo',
     },
     {
       name: 'linked-in',
       display: 'LinkedIn',
       aria: 'Visit my LinkedIn profile',
       icon: <LinkedIn />,
-      href: 'https://www.linkedin.com/in/adam-alston/',
-    },
-    {
-      name: 'resume',
-      display: 'Resume',
-      aria: 'View my resume in Google Drive',
-      icon: <Resume />,
-      href: 'https://drive.google.com/file/d/1VQ_Oeim_e92QEMi64ejGWY5Hf4RRxfeJ/view',
+      href: 'https://www.linkedin.com/in/angelicaerazo/',
     },
     {
       name: 'email',
       display: 'Email',
       aria: 'Send me an email',
       icon: <Email />,
-      href: 'mailto:aalston9@gmail.com',
+      href: 'mailto:angelica.erazo22@gmail.com',
     },
   ],
 };

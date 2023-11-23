@@ -31,22 +31,22 @@ export const Footer = () => {
       <F.Text
         data-v2="footer"
         theme={theme}
-        aria-label="Designed and built by Adam Alston"
+        aria-label="Credit to Adam Alston for Repo"
       >
-        {'Designed and built by '}
+        {'S/o to Adam Alston for Repo '}
         <F.Link
           data-v2="creator"
           theme={theme}
-          href="https://www.adamalston.com"
-          aria-label="Adam's website"
-          title="A link to Adam's personal website"
+          // href="https://github.com/amerazo"
+          aria-label="Angelica's website"
+          title="A link to Angelica's personal website"
         >
-          {'Adam Alston'}
+          {/* {'Angelica Erazo'} */}
         </F.Link>
         {!isMobile && (
           <>
             {' | '}
-            <F.Link
+            {/* <F.Link
               data-v2="source"
               theme={theme}
               href="https://github.com/adamalston/v2/"
@@ -54,7 +54,7 @@ export const Footer = () => {
               title="View this website's source code in GitHub"
             >
               {'Source'}
-            </F.Link>
+            </F.Link> */}
           </>
         )}
       </F.Text>
